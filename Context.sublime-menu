@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Sort",
+        "caption": "Comma-separated in one line",
         "command": "sort_list"
     }
 ]

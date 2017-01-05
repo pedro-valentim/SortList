@@ -39,7 +39,7 @@ class SortListCommand(sublime_plugin.TextCommand):
             txt_list = text[p1:p2]
             region = sublime.Region(p1, p2)
 
-        txt_list = txt_list.split(',')
+        txt_list = txt_list.split('\n')
 
         for key, value in enumerate(txt_list):
             txt_list[key] = value.strip()
