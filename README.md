@@ -1,6 +1,4 @@
 SortList-Sublime-3-plugin
 =========================
 
-SortList Sublime 3 plugin
-
-![Example of Use](https://raw.github.com/zokis/SortList/master/example.gif "Example of Use")
+Convert a selection of lines to comma-separated values in one line Sublime 3 plugin
