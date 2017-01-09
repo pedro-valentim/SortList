@@ -42,7 +42,7 @@ class SortListCommand(sublime_plugin.TextCommand):
         txt_list = txt_list.split('\n')
 
         for key, value in enumerate(txt_list):
-            txt_list[key] = value.strip()
+            txt_list[key] = value.replace(', ', '').strip()
 
         txt_list.sort()
 
